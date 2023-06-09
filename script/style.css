@@ -1,0 +1,133 @@
+/* 
+STYLE DEFAULT
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* 
+BAGIAN NAVBAR
+*/
+
+nav {
+    background-color: rgb(50, 113, 131);
+    padding: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(58, 138, 160);
+}
+
+
+/* 
+BAGIAN HEADER 
+*/
+header.navbar{
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .note h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+    margin-bottom: 10px;
+}
+
+header .note p {
+    color: rgb(215, 244, 250);
+    letter-spacing:3px;
+}
+
+
+/* 
+BAGIAN MAIN
+*/
+
+main {
+    display: flex;
+    padding: 10px;
+}
+main #content{
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 51rem;
+    border-radius: 10px;
+}
+
+article {
+    text-align: justify;
+}
+
+article h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+article img{
+    width: 50rem;
+    margin-bottom: 20px;
+}
+
+main #sekilasInfo {
+    margin-left: 20px;
+    box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 50%;
+}
+
+main #sekilasInfo aside article{
+    text-align: center;
+}
+
+main #sekilasInfo aside article img {
+    width: 100px;
+}
+
+/* 
+BAGIAN FOOTERR
+*/
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(50, 113, 131);
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: rgb(225, 225, 225);
+}
